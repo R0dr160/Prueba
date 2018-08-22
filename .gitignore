@@ -1,0 +1,17 @@
+passwords.txt
+
+
+#con este simbolo se escriben comentarios
+
+#ignora todos los archivos con extension .class
+*.class
+
+log/*.log
+
+#ignora todos los archivos dentro de la carpta la cual se lo indica con la barra invertida al final
+node_modules/
+
+#ignora todos los archivos dentro de la carpeta libreria menos aquellos que empiecen con "archivo_*.nd"
+
+librerias/
+!librerias/archivo_*.nd
